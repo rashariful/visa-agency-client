@@ -57,7 +57,7 @@ const CountryList = () => {
                   <h2 className="mb-2 text-lg font-semibold text-gray-50">
                     <a
                       href="#"
-                      className="transition duration-300 hover:text-primary"
+                      className="transition duration-300 text-slate-700 hover:text-primary"
                     >
                       {country.title}
                     </a>
@@ -71,7 +71,7 @@ const CountryList = () => {
                  </div>
                 </div>
                   <Link
-                    className="text-primary font-semibold p-5"
+                    className="text-primary font-semibold p-5 hover:underline"
                     >
                       Read more
                     </Link>

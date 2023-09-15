@@ -53,10 +53,10 @@ const Hero = () => {
             <SwiperSlide key={index} className="h-[650px]">
               <div className="bg-slate-50 pb-6 sm:pt-8 lg:pt-12">
                 <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-                  <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
+                  <section className="flex flex-col items-center justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
                     {/* <!-- content - start --> */}
                     <div className="flex flex-col items-center justify-center sm:text-center lg:items-start lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
-                      <h1 className="mb-8 text-2xl font-bold text-slate-700 md:text-5xl leading-normal">
+                      <h1 className="mb-8 text-2xl font-bold text-slate-700 md:text-5xl leading-10">
                         {hero.title}
                       </h1>
 
@@ -72,12 +72,12 @@ const Hero = () => {
                     {/* <!-- content - end --> */}
 
                     {/* <!-- image - start --> */}
-                    <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
+                    <div className="h-48 overflow-hidden lg:h-auto xl:w-5/12">
                       <img
                         src={hero.img}
                         loading="lazy"
                         alt="Photo by Fakurian Design"
-                        className="h-48 object-center object-contain"
+                        className=" object-center rounded object-contain"
                       />
                     </div>
                     {/* <!-- image - end --> */}

@@ -1,0 +1,34 @@
+.cartoon {
+    /* width: 100px;
+    height: 100px; */
+    /* background-color: #ff5733; */
+    /* border-radius: 50%; */
+    /* position: absolute; */
+    animation: bounceCartoon 5s linear infinite; /* Define the animation */
+    
+  }
+  
+  /* Define the animation keyframes */
+  @keyframes moveCartoon {
+    /* 0% {
+      left: 0;
+    } */
+    100% {
+      right: 50%;
+      transform: translateX(-5%);
+    }
+    100% {
+      left: 100%;
+      transform: translateX(-5%);
+    }
+  }
+  
+
+  @keyframes bounceCartoon {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Adjust the bounce height */
+    }
+  }

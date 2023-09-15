@@ -21,10 +21,10 @@ const Testimonial = () => {
         }}
        
         modules={[Autoplay,]}
-        className="mySwiper grid gap-4 md:grid-cols-2 md:gap-8"
+        className="mySwiper grid gap-4 md:grid-cols-2 md:gap-8" 
       >
         <div 
-        className=""
+        className=" "  
         >
           <SwiperSlide className="flex justify-center gap-4">
             {/* <!-- quote - start --> */}

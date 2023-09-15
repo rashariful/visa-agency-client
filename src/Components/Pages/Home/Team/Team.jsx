@@ -16,7 +16,7 @@ const teams = [
     fbUrl: "https://www.facebook.com/rashariful",
     linkUrl: "https://www.facebook.com/rashariful",
     twtUrl: "https://www.facebook.com/rashariful",
-    img: 'https://img.freepik.com/premium-photo/handsome-businessman-is-working-with-laptop-office_85574-4685.jpg',
+    img: 'https://img.freepik.com/free-photo/face-handsome-african-american-business-woman-holding-tablet-background-business-peoples-multiracial-team-meeting-sitting-office-table_627829-13639.jpg?w=740&t=st=1694769660~exp=1694770260~hmac=0528fa00a6f310db1641c82d1153dfa92b426d8330c127d34d46ff3b16865985',
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const teams = [
     fbUrl: "https://www.facebook.com/rashariful",
     linkUrl: "https://www.facebook.com/rashariful",
     twtUrl: "https://www.facebook.com/rashariful",
-    img: 'https://img.freepik.com/premium-photo/handsome-businessman-is-working-with-laptop-office_85574-4685.jpg',
+    img: 'https://img.freepik.com/free-photo/entrepreneur-typing-keyboard-working-from-home-person-using-computer-remote-corporate-work-browsing-internet-businessman-doing-networking-project-with-technology_482257-29002.jpg?w=740&t=st=1694769639~exp=1694770239~hmac=bafd71f4dbef7ad7cac21c61d4f2302cb66b24fca93296f28082da4256cafb02',
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const teams = [
     fbUrl: "https://www.facebook.com/rashariful",
     linkUrl: "https://www.facebook.com/rashariful",
     twtUrl: "https://www.facebook.com/rashariful",
-    img: 'https://img.freepik.com/premium-photo/handsome-businessman-is-working-with-laptop-office_85574-4685.jpg',
+    img: 'https://img.freepik.com/free-photo/portrait-successful-man-having-stubble-posing-with-broad-smile-keeping-arms-folded_171337-1267.jpg?w=740&t=st=1694769587~exp=1694770187~hmac=2acc305a041ddcc4a87b45f57c5edf077de28dec9c2116ab0ae937eca79a8c2b',
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const teams = [
     fbUrl: "https://www.facebook.com/rashariful",
     linkUrl: "https://www.facebook.com/rashariful",
     twtUrl: "https://www.facebook.com/rashariful",
-    img: 'https://img.freepik.com/premium-photo/handsome-businessman-is-working-with-laptop-office_85574-4685.jpg',
+    img: 'https://img.freepik.com/free-photo/cheerful-young-caucasian-businessman_171337-727.jpg?w=740&t=st=1694767234~exp=1694767834~hmac=7f8e3a47ca4c4b3a35f268c7f6298d0324dcb666035da8eb968d1566ebd2fc54',
   },
 ];
 
@@ -80,7 +80,7 @@ const Team = () => {
                 </div>
 
                 <div>
-                  <div className="text-indigo-500 md:text-lg font-bold text-center">
+                  <div className="text-primary md:text-lg font-bold text-center">
                     {team.name}
                   </div>
                   <p className="text-gray-500 text-sm md:text-base text-center mb-3 md:mb-4">

@@ -24,7 +24,7 @@ const Navbar = () => {
             </span>
            
               <a className="text-slate-400" href="tel:+8801850273117">
-                +8801850273117
+                +8801733-578698
               </a>
            
           </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
             </span>
 
             <span className="">
-              <span className="text-slate-400 font-extralight">digitalagencypark@gmail.com</span>
+              <span className="text-slate-400 font-extralight">yourmail@gmail.com</span>
             </span>
           </div>
         </div>

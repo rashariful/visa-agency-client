@@ -66,8 +66,8 @@ const Country = () => {
           </p>
         </div>
 
-        <div className="flex justify-center items-center mt-16  bg-white py-3 ">
-          <div className="flex justify-center items-center drop-shadow-sm border-b-2 gap-6">
+        <div className="flex flex-wrap justify-center items-center mt-16  bg-white py-3 ">
+          <div className="flex flex-wrap justify-center items-center drop-shadow-sm border-b-2 gap-6">
             {taps.map((tab, index) => (
               <div
                 key={index}
@@ -80,16 +80,16 @@ const Country = () => {
               >
                 <div className="">
                   <ul
-                    className={`mb-4 flex gap-2 duration-300 items-center
+                    className={`mb-4 flex flex-wrap gap-2 duration-300 items-center
                 
               `}
                   >
-                    <li>
+                    <li className="hidden md:block">
                       <img
                         className="w-5 h-5 rounded-full border"
                         src={tab.img}
                         alt=""
-                      />
+                      />    
                     </li>
                     <li className={`capitalize cursor-pointer leading-normal`}>
                       {tab.title}

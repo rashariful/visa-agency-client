@@ -16,10 +16,10 @@ const Navbar = () => {
     >
       <div className=" bg-slate-800 py-2 px-6 overflow-x-hidden">
       <div className="flex flex-wrap flex-col gap-3 justify-between md:flex-row items-center">
-        <div className="flex justify-between gap-5">
-          <div className="flex items-center gap-3">
+        <div className="flex flex-wrap justify-between gap-5">
+          <div className="flex flex-wrap items-center gap-3">
 
-            <span className="text-blue-400 hover:text-slate-500 transition-colors duration-300">
+            <span className="text-slate-400 hover:text-primary transition-colors duration-300">
               <FaPhoneSquare size={18} />
             </span>
            
@@ -29,8 +29,8 @@ const Navbar = () => {
            
           </div>
 
-          <div className="flex items-center gap-3">
-            <span className="text-blue-400 hover:text-slate-500 transition-colors duration-300">
+          <div className="flex flex-wrap items-center gap-3">
+            <span className="text-slate-400 hover:text-primary transition-colors duration-300">
               <MdEmail size={18} />
             </span>
 
@@ -41,13 +41,13 @@ const Navbar = () => {
         </div>
 
         {/* social media start */}
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-3">
           <div>
             <a
               href="https://www.facebook.com/Digitalagencypark"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-400 hover:text-slate-500 transition-colors duration-300"
+              className="text-slate-400 hover:text-primary transition-colors duration-300"
             >
               <FaFacebookSquare size={18} />
             </a>
@@ -57,7 +57,7 @@ const Navbar = () => {
               href="https://www.facebook.com/Digitalagencypark"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-400 hover:text-slate-500 transition-colors duration-300"
+              className="text-slate-400 hover:text-primary transition-colors duration-300"
             >
               <FaInstagramSquare size={18} />
             </a>
@@ -67,7 +67,7 @@ const Navbar = () => {
               href="https://www.facebook.com/Digitalagencypark"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-400 hover:text-slate-500 transition-colors duration-300"
+              className="text-slate-400 hover:text-primary transition-colors duration-300"
             >
               <FaLinkedin size={18} />
             </a>

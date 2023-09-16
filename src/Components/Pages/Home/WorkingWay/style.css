@@ -1,0 +1,41 @@
+.biman {
+    /* width: 100px;
+    height: 100px; */
+    /* background-color: #ff5733; */
+    /* border-radius: 50%; */
+    /* position: absolute; */
+    animation: moveCartoon 5s linear infinite; /* Define the animation */
+    
+  }
+  
+  /* Define the animation keyframes */
+  @keyframes moveCartoon {
+    /* 0% {
+      left: 0;
+    } */
+    /* 100% {
+      left: 100%;
+      transform: translateX(-5%);
+    } */
+    0% {
+      left: 0%;
+     
+      /* transform: translateY(-5%); */
+      /* transform: scale(105); */
+    }
+    0% {
+      
+      
+      transform: translateX(-50%);
+    }
+  }
+  
+
+  @keyframes bounceCartoon {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Adjust the bounce height */
+    }
+  }

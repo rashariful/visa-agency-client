@@ -1,15 +1,10 @@
-
-// import "../../../../styles/ContactUsStyles.css";
 import { Link } from "react-router-dom";
-// import COLORS from "../../../../assets/COLORS/COLORS";
 import {
   FaPhoneAlt,
   FaEnvelope,
   FaEnvelopeOpenText,
-  FaMapMarkedAlt,
   FaLocationArrow,
 } from "react-icons/fa";
-import PrimaryButton from "../../../shared/Button/PrimaryButton";
 
 const Contact = () => {
   return (
@@ -48,19 +43,19 @@ const Contact = () => {
             <span className="flex gap-3 mb-3">
             <span className="text-primary"> <FaPhoneAlt size={19} /></span>
              
-              <p className="font-semibold text-neutral"> +8801850-273117</p>
+              <p className="font-semibold text-neutral"> +8801733-578698</p>
             </span>
             <span className="flex gap-3 mb-3">
               <span className="text-primary"><FaEnvelope size={19}/></span>
               
-              <p className="font-semibold text-neutral">digitalagencypark@gmail.com</p>
+              <p className="font-semibold text-neutral">yourmail@gmail.com</p>
             </span>
             <span className="flex gap-3 mb-3">
             <span className="text-primary"> <FaLocationArrow size={19} /></span>
              
               <p className="font-semibold text-neutral">
-                Road # 03, House # 03, Nikunja 02, <br />{" "}
-                <span>Dhaka Bangladesh 1229</span>{" "}
+              Naya paltan motalib plaza, <br />{" "}
+                <span>Dhaka Bangladesh 1215</span>{" "}
               </p>
             </span>
           </div>

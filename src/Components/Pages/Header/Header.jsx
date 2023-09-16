@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { MdClose, MdOutlineMenu } from "react-icons/md";
-import { Link,NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import PrimaryButton from "../../../shared/Button/PrimaryButton";
 // import logo from "../../../Assets/logo.svg";
 
@@ -32,49 +32,70 @@ const Header = () => {
   const menuItems = (
     <React.Fragment>
       <li className="font-semibold text-md text-slate-600 hover:text-primary active:text-primary">
-        <NavLink to="/" style={({isActive, isPending})=>{
-          return {
-            color: isActive ? "#0067ED" : "",
-            // color: isPending ? "" : "",
-          }
-        }}>Home</NavLink>
+        <NavLink
+          to="/"
+          style={({ isActive, isPending }) => {
+            return {
+              color: isActive ? "#0067ED" : "",
+              // color: isPending ? "" : "",
+            };
+          }}
+        >
+          Home
+        </NavLink>
       </li>
       <li className="font-semibold text-md text-slate-600 hover:text-primary active:text-primary">
-      <NavLink to="/about-us" style={({isActive, isPending})=>{
-          return {
-            color: isActive ? "#0067ED" : "",
-            // color: isPending ? "" : "",
-          }
-        }}>About</NavLink>
+        <NavLink
+          to="/about-us"
+          style={({ isActive, isPending }) => {
+            return {
+              color: isActive ? "#0067ED" : "",
+              // color: isPending ? "" : "",
+            };
+          }}
+        >
+          About
+        </NavLink>
       </li>
       <li className="font-semibold text-md text-slate-600 hover:text-primary active:text-primary">
-      <NavLink to="/blog" style={({isActive, isPending})=>{
-          return {
-            color: isActive ? "#0067ED" : "",
-            // color: isPending ? "" : "",
-          }
-        }}>blog</NavLink>
+        <NavLink
+          to="/blog"
+          style={({ isActive, isPending }) => {
+            return {
+              color: isActive ? "#0067ED" : "",
+              // color: isPending ? "" : "",
+            };
+          }}
+        >
+          blog
+        </NavLink>
       </li>
       <li className="font-semibold text-md text-slate-600 hover:text-primary active:text-primary">
-      <NavLink to="/services" style={({isActive, isPending})=>{
-          return {
-            color: isActive ? "#0067ED" : "",
-            // color: isPending ? "" : "",
-          }
-        }}>services</NavLink>
+        <NavLink
+          to="/services"
+          style={({ isActive, isPending }) => {
+            return {
+              color: isActive ? "#0067ED" : "",
+              // color: isPending ? "" : "",
+            };
+          }}
+        >
+          services
+        </NavLink>
       </li>
       <li className="font-semibold text-md text-slate-600 hover:text-primary active:text-primary">
-      <NavLink to="/contact" style={({isActive, isPending})=>{
-          return {
-            color: isActive ? "#0067ED" : "",
-            // color: isPending ? "" : "",
-          }
-        }}>contact</NavLink>
+        <NavLink
+          to="/contact"
+          style={({ isActive, isPending }) => {
+            return {
+              color: isActive ? "#0067ED" : "",
+              // color: isPending ? "" : "",
+            };
+          }}
+        >
+          contact
+        </NavLink>
       </li>
-      
-    
-
-     
     </React.Fragment>
   );
   // const menuItems = (
@@ -120,32 +141,35 @@ const Header = () => {
       }`}
     >
       <div className="max-w-screen-2xl mx-auto py-3">
-        <div className=""> 
-
         <div className="">
+          <div className="">
+            <div className="flex flex-wrap items-center justify-between px-3">
+              <div>
+                <Link to="/">
+                  <img
+                    className="w-44 h-11"
+                    src="https://jthemes.net/themes/wp/immiex/wp-content/themes/immiex/images/logo.png"
+                    alt=""
+                  />
+                </Link>
+              </div>
 
-          <div className="flex flex-wrap items-center justify-between px-3">
-            <div>
-              <Link to="/">
-                <img className="w-44 h-11" 
-                src="https://jthemes.net/themes/wp/immiex/wp-content/themes/immiex/images/logo.png" alt="" />
-              </Link>
-            </div>
+              <div className=" hidden md:block  text-center">
+                <ul className="flex gap-8 capitalize font-semibold">
+                  {menuItems}
+                </ul>
+              </div>
 
-            <div className=" hidden md:block  text-center">
-              <ul className="flex gap-8 capitalize font-semibold">{menuItems}</ul>
-            </div>
-
-            <div className="hidden md:block">
-              <div className="mt-4 sm:mt-0">
-               <PrimaryButton>
-               Get a quote
-               </PrimaryButton>
+              <div className="hidden md:block">
+                <div className="mt-4 sm:mt-0">
+                  <Link to="/contact">
+                    {" "}
+                    <PrimaryButton>Get a quote</PrimaryButton>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
-
-        </div>
           <div className="flex md:hidden">
             {/* Mobile menu button */}
             <button
@@ -174,11 +198,11 @@ const Header = () => {
         <div className=" border-y border-gray-300">
           {/* Add your call-to-action button for mobile here */}
           <div className="flex justify-start items-center px-4 ">
-          <div className="mt-4 sm:mt-0">
-                <button className="uppercase text-center py-4 px-12 text-white font-semibold bg-gradient-to-r from-[#2B59FF] to-[#0067ED] items-center hover:from-[#1a43d6] hover:to-[#9b22d3] border-0 focus:outline-none hover:bg-gray-200 rounded md:mt-0">
-                  Get a quote
-                </button>
-              </div>
+            <div className="mt-4 sm:mt-0">
+              <button className="uppercase text-center py-4 px-12 text-white font-semibold bg-gradient-to-r from-[#2B59FF] to-[#0067ED] items-center hover:from-[#1a43d6] hover:to-[#9b22d3] border-0 focus:outline-none hover:bg-gray-200 rounded md:mt-0">
+                Get a quote
+              </button>
+            </div>
           </div>
         </div>
       </div>

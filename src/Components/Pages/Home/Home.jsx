@@ -1,4 +1,4 @@
-import Services from "../Services/Services";
+import Service from "../Services/Service";
 import Choose from "./Choose/Choose";
 import Country from "./Country/Country";
 import FAQ from "./FAQ/FAQ";
@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <main>
             <section> <Hero/> </section>
-            <section> <Services/> </section>
+            <section> <Service/> </section>
             {/* <section> <VisaType/> </section> */}
             <section> <Country/> </section>
             <section> <University/> </section>

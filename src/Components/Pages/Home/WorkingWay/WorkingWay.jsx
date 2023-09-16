@@ -1,11 +1,20 @@
 import React from "react";
 import style from "./style.css";
-import biman from "../../../../assets/biman-01.png"
+import biman from "../../../../assets/biman-01.png";
 
 const WorkingWay = () => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
+        <div className="mb-10 md:mb-16">
+          <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
+            Four Steps To Success
+          </h2>
+
+          <p className="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">
+            We Will Help You Every Step Of The Way
+          </p>
+        </div>
         <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
           <div className="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-primary hover:underline flex-shrink-0">
             {/* <svg
@@ -200,11 +209,7 @@ const WorkingWay = () => {
           </div>
         </div>
 
-        <img
-          className="biman h-96 w-96 absolute"
-          src={biman}
-          alt=""
-        />
+        <img className="biman h-96 w-96 absolute" src={biman} alt="" />
 
         <button className="flex mx-auto mt-20 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
           View Details

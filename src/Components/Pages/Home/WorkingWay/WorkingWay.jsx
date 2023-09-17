@@ -4,10 +4,10 @@ import biman from "../../../../assets/biman-01.png";
 
 const WorkingWay = () => {
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+    <section className="text-gray-600 body-font ">
+      <div className="container px-5 py-24 mx-auto"> 
         <div className="mb-10 md:mb-16">
-          <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">
+          <h2 className="mb-4 text-center text-2xl  font-bold text-gray-800 md:mb-6 lg:text-3xl">
             Four Steps To Success
           </h2>
 

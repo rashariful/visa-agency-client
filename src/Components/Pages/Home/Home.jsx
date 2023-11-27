@@ -21,9 +21,9 @@ const Home = () => {
             <section> <University/> </section>
             <section> <WorkingWay/> </section>
             <section> <FAQ/> </section>
-            <section> <Team/> </section>
             <section> <Story/> </section>
             <section> <Choose/> </section>
+            <section> <Team/> </section>
             <section> <Testimonial/> </section>
         </main>
     );

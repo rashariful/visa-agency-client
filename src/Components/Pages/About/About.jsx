@@ -29,77 +29,69 @@ const About = () => {
       <div className="bg-white py-6 sm:py-8 lg:py-12">
         <div className="mx-auto max-w-screen-md px-4 md:px-8">
           <h1 className="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6">
-            Our competitive advantage
+            About OSICL
           </h1>
 
           <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
-            This is a section of some simple filler text, also known as
-            placeholder text. It shares some characteristics of a real written
-            text but is random or otherwise generated. It may be used to display
-            a sample of fonts or generate text for testing. Filler text is dummy
-            text which has no meaning however looks very similar to real text.
-            The important factor when using filler text is that the text looks
-            realistic otherwise it will not look very good.
+            Learn about the institutes we offer. Research on the internet to see
+            which is best suited to your needs. Students should try to find out
+            about the university, teaching and facilities, cost, payment terms,
+            terms and conditions, refund policy, entry requirements, type and
+            duration of visa, whether work is allowed, location, cost of living
+            and job opportunities, post study work opportunities, PR
+            opportunities before committing themselves.The terms of conditions
+            of enrolment is very essential and tells you about what you can do
+            and what you cannot do as well as refund policies. <br />
+            <br />Compliance is key
+            and you should first satisfy the entry requirements of an institute
+            and also be certain that yoiu meet the visa requirements. We do not
+            offer short cuts and do not waive any conditions. You will need to
+            satisfy all the entry conditions if you wish to apply and be
+            successful for a visa. <br />
+            <br /> Submit an application: We will need a signed
+            application form, copies of education certificates, IELTS, passport.
+            If you have any study gaps, we need to know what you have been doing
+            and why the gaps had occurred. We will revert back with an offer and
+            invoice. If you downloading the application forms from our library,
+            your education certificates will need to be attested by us. So you
+            will need to show them physically. In this regard there are no
+            charges whatsoever, but we will need to be satisfied that you
+            genuinely intend to study, can afford the tuition fees and that you
+            can meet the visa requirements. <br />
+            <br />Pay your advance tuition fees: Never
+            pay cash to an agent. We ask you to secure a student file and to pay
+            via your bank to the university bank. Advance tuition fees are
+            essential before a visa because we need to be certain that you
+            committed to your aims and that you will study. Advnace tuition fees
+            are refundable by the institute. some institutes deduct an admin
+            fee. So please read the terms and of enrolment before you submit
+            your application. We will issue a CAS/COE/I20/Final Acceptance
+            letter so that you can submit a visa application. <br />
+            <br /> We will advise
+            about visa requirements, duration of a visa and permission to work
+            as well as the amount you need to show in a bank account and which
+            banks are approved etc. Visa applications can take time - some
+            countries take longer than others. You should apply for a visa well
+            and advance and therefore should start your reaserch much earlier.
+            In many countries, you will be required to resubmit your visa
+            application and financial documents and a new acceptance letter if
+            you miss the deadline and are forced to defer your course
+            commencement. In such cases you will also need to pay the visa fee
+            again. This is why it is imperative that you apply early. So that
+            you do not need to resubmit your visa application. <br />
+            <br /> After you have
+            obtained a visa we will advise of what documents you need to take to
+            your desired destination and how to register at the university. 
             <br />
             <br />
-            This is a section of some simple filler text, also known as
-            placeholder text. It shares some characteristics of a real written
-            text but is{" "}
-            <a
-              href="#"
-              className="text-indigo-500 underline transition duration-100 hover:text-indigo-600 active:text-indigo-700"
-            >
-              random
-            </a>{" "}
-            or otherwise generated. It may be used to display a sample of fonts
-            or generate text for testing. Filler text is dummy text which has no
-            meaning however looks very similar to real text.
+            
+            <i className="text-rose-700">It
+            is very simple. We will help you every step of the way if you
+            genuinely want to study. You should apply as early as possible.</i>
+            
           </p>
 
-          <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">
-            About us
-          </h2>
-
-          <p className="mb-6 text-gray-500 sm:text-lg md:mb-8">
-            This is a section of some simple filler text, also known as
-            placeholder text. It shares some characteristics of a real written
-            text but is random or otherwise generated. It may be used to display
-            a sample of fonts or generate text for testing. Filler text is dummy
-            text which has no meaning however looks very similar to real text.
-          </p>
-
-          <ul className="mb-6 list-inside list-disc text-gray-500 sm:text-lg md:mb-8">
-            <li>This is a section of some simple filler text</li>
-            <li>Also known as placeholder text</li>
-            <li>It shares some characteristics of a real written text</li>
-          </ul>
-
-          <blockquote className="mb-6 border-l-4 pl-4 italic text-gray-500 sm:text-lg md:mb-8 md:pl-6">
-            “This is a section of some simple filler text, also known as
-            placeholder text. It shares some characteristics of a real written
-            text but is random or otherwise generated.”
-          </blockquote>
-
-          <div className="relative mb-6 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:mb-8">
-            <img
-              src="https://img.freepik.com/free-photo/toronto-skyline-from-park_649448-3488.jpg?w=1380&t=st=1694721473~exp=1694722073~hmac=4c156fcefd502660f93bfa5a44404993295eac46da442b0ba2932da63a7f8af7"
-              loading="lazy"
-              alt=" by Minh Pham"
-              className="h-full w-full object-cover object-center"
-            />
-          </div>
-
-          <h2 className="mb-2 text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4">
-            Features
-          </h2>
-
-          <p className="text-gray-500 sm:text-lg">
-            This is a section of some simple filler text, also known as
-            placeholder text. It shares some characteristics of a real written
-            text but is random or otherwise generated. It may be used to display
-            a sample of fonts or generate text for testing. Filler text is dummy
-            text which has no meaning however looks very similar to real text.
-          </p>
+         
         </div>
       </div>
       {/* <Team/> */}

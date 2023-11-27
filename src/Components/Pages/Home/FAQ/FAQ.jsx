@@ -20,6 +20,18 @@ const faqData = [
     answer:
       "Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae auctor eros congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien etiam sapien sem sagittis congue tempor gravida donec enim ipsum",
   },
+  {
+    id: 4,
+    question: "How long does the application process take?",
+    answer:
+      "Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae auctor eros congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien etiam sapien sem sagittis congue tempor gravida donec enim ipsum",
+  },
+  {
+    id: 5,
+    question: "How long does the application process take?",
+    answer:
+      "Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae auctor eros congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien etiam sapien sem sagittis congue tempor gravida donec enim ipsum",
+  },
 ];
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(-1);

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { MdClose, MdOutlineMenu } from "react-icons/md";
 import { Link, NavLink } from "react-router-dom";
 import PrimaryButton from "../../../shared/Button/PrimaryButton";
-// import logo from "../../../Assets/logo.svg";
+import logo from "../../../Assets/osicl.png";
 
 const Header = () => {
   const [isNavbarVisible, setNavbarVisible] = useState(true);
@@ -59,7 +59,7 @@ const Header = () => {
       </li>
       <li className="font-semibold text-md text-slate-600 hover:text-primary active:text-primary">
         <NavLink
-          to="/blog"
+          to="/authorisation"
           style={({ isActive, isPending }) => {
             return {
               color: isActive ? "#0067ED" : "",
@@ -67,7 +67,7 @@ const Header = () => {
             };
           }}
         >
-          blog
+          Authorisation
         </NavLink>
       </li>
       <li className="font-semibold text-md text-slate-600 hover:text-primary active:text-primary">
@@ -147,8 +147,8 @@ const Header = () => {
               <div>
                 <Link to="/">
                   <img
-                    className="w-44 h-11"
-                    src="https://jthemes.net/themes/wp/immiex/wp-content/themes/immiex/images/logo.png"
+                    className="w-44 "
+                    src={logo}
                     alt=""
                   />
                 </Link>

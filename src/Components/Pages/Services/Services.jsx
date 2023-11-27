@@ -1,4 +1,3 @@
-import React from "react";
 import { FcHome } from "react-icons/fc";
 import { Link } from "react-router-dom";
 import sr1 from "../../../assets/sr/sr-1.png";
@@ -76,7 +75,7 @@ const Services = () => {
           className="w-full object-cover h-96"
         />
         <h3 className="absolute font-myFont inset-0 drop-shadow flex items-center justify-center text-slate-50 font-bold text-4xl ">
-        Our  Services
+          Our Services
         </h3>
         <div className="text-sm ml-32 absolute text-white bottom-5 breadcrumbs">
           <ul>

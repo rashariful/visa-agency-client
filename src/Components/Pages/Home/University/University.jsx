@@ -6,37 +6,37 @@ const University = () => {
     {
       id: 1,
       title: " The University of Arizona",
-      img: "https://www.osicl.com/static/media/univercity1.d3bb9a4b001995e55a10.jpeg",
+      img: "https://img.freepik.com/premium-photo/cathedral-ordination-monastery_433016-4215.jpg",
       link: "link"
     },
     {
       id: 2,
       title: " The University of Arizona",
-      img: "https://www.osicl.com/static/media/univercity1.d3bb9a4b001995e55a10.jpeg",
+      img: "https://img.freepik.com/free-photo/architecture-independence-palace-ho-chi-minh-city_181624-21243.jpg?w=1380&t=st=1700929680~exp=1700930280~hmac=4bc4ccc4a70733c02edcbcc56842b217a8cc623f1193c6b887869eacd2740941",
       link: "link"
     },
     {
       id: 3,
       title: " The University of Arizona",
-      img: "https://www.osicl.com/static/media/univercity2.784f0cab96b08a0b9f6d.jpeg",
+      img: "https://img.freepik.com/free-photo/mevlana-mosque-konya-turkey_335224-631.jpg?w=1380&t=st=1700929837~exp=1700930437~hmac=724088a12e72ea642e5a2ed8a4736ad9ceecd66e4c10b5a2bac0919ade0007af",
       link: "link"
     },
     {
       id: 4,
       title: " The University of Arizona",
-      img: "https://www.osicl.com/static/media/univercity1.d3bb9a4b001995e55a10.jpeg",
+      img: "https://img.freepik.com/premium-photo/church-archangel-michael_433016-4399.jpg",
       link: "link"
     },
     {
       id: 5,
       title: " The University of Arizona",
-      img: "https://www.osicl.com/static/media/univercity1.d3bb9a4b001995e55a10.jpeg",
+      img: "https://img.freepik.com/free-photo/architecture-independence-palace-ho-chi-minh-city_181624-21243.jpg?w=1380&t=st=1700929680~exp=1700930280~hmac=4bc4ccc4a70733c02edcbcc56842b217a8cc623f1193c6b887869eacd2740941",
       link: "link"
     },
     {
       id: 6,
       title: " The University of Arizona",
-      img: "https://www.osicl.com/static/media/univercity2.784f0cab96b08a0b9f6d.jpeg",
+      img: "https://img.freepik.com/free-photo/beautiful-streets-switzerland_8353-9666.jpg?w=1380&t=st=1700929795~exp=1700930395~hmac=3858268cdf4e1c214165159c97d4db03ef112e8a869fce8dc0693d3f7ed09ca5",
       link: "link"
     },
   ]

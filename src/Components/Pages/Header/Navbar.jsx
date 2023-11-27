@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from "react";
 import {
   FaFacebookSquare,
   FaInstagramSquare,
   FaLinkedin,
   FaPhoneSquare,
-  FaTwitterSquare,
 } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
@@ -23,8 +21,8 @@ const Navbar = () => {
               <FaPhoneSquare size={18} />
             </span>
            
-              <a className="text-slate-400" href="tel:+8801850273117">
-                +8801733-578698
+              <a className="text-slate-400" href="tel:+8801733578698">
+                +8801701-848076
               </a>
            
           </div>
@@ -35,7 +33,7 @@ const Navbar = () => {
             </span>
 
             <span className="">
-              <span className="text-slate-400 font-extralight">yourmail@gmail.com</span>
+              <span className="text-slate-400 font-extralight">Rashidulhasan@osicl.com</span>
             </span>
           </div>
         </div>

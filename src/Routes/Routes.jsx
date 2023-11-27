@@ -6,6 +6,8 @@ import Blog from "../Components/Pages/Blog/Blog";
 import Contact from "../Components/Pages/Contact/Contact";
 import Services from "../Components/Pages/Services/Services";
 import ServiceDetails from "../Components/Pages/Services/ServiceDetails";
+import CountryDetails from "../Components/Pages/Home/Country/CountryDetails";
+import Authorisation from "../Components/Pages/Authorisation/Authorisation";
 
 const router = createBrowserRouter([
     {
@@ -38,8 +40,16 @@ const router = createBrowserRouter([
           element: <Services/>,
         },
         {
+          path: "/authorisation",
+          element: <Authorisation/>,
+        },
+        {
           path: "/service-details/:id",
           element: <ServiceDetails/>,
+        },
+        {
+          path: "/country-details/:id",
+          element: <CountryDetails/>,
         },
 
 

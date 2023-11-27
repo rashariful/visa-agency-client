@@ -1,7 +1,15 @@
+import { useEffect } from "react";
 import blogData from "../../../assets/data/blog.json";
 import { Link } from "react-router-dom";
+
 const Blog = () => {
- 
+  console.log(blogData)
+  
+  // useEffect(()=>{
+  //   fetch("/blog.json")
+  //   .then(res=> res.json())
+  //   .then(data => console.log("Blog data",data))
+  // },[])
 
   return (
     <div className="bg-white py-6 sm:py-8 lg:py-12">

@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="flex flex-wrap items-center gap-3">
           <div>
             <a
-              href="https://www.facebook.com/Digitalagencypark"
+              href="/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 hover:text-primary transition-colors duration-300"
@@ -52,7 +52,7 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              href="https://www.facebook.com/Digitalagencypark"
+              href="/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 hover:text-primary transition-colors duration-300"
@@ -62,7 +62,7 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              href="https://www.facebook.com/Digitalagencypark"
+              href="/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 hover:text-primary transition-colors duration-300"

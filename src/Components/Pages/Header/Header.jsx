@@ -80,7 +80,7 @@ const Header = () => {
             };
           }}
         >
-          services
+         
         </NavLink>
       </li>
       <li className="font-semibold text-md text-slate-600 hover:text-primary active:text-primary">
@@ -146,11 +146,13 @@ const Header = () => {
             <div className="flex flex-wrap items-center justify-between px-3">
               <div>
                 <Link to="/">
-                  <img
-                    className="w-44 "
+                  {/* <img
+                    className="w-52 "
                     src={logo}
                     alt=""
-                  />
+                  /> */}
+                  <p className="text-xl font-bold text-blue-600">OVERSEAS STUDY <span className="text-orange-500">& IMMIGRATION</span></p>
+                  <p className=" text-gray-500">CONSULTANTS LTD</p>
                 </Link>
               </div>
 
